@@ -37,4 +37,3 @@ for(var i = 0 ; i <= n ; i++){
    p2=(y3+p2)/2;
    contexto.fillRect(p1,p2,2,2);
    }}
-window.alert('termine');
