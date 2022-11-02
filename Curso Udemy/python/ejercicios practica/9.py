@@ -1,5 +1,0 @@
-inversion= int(input('inserte la cantidad a invertir:'))
-interes= int(input('ingrese el interes anual: '))
-años= int (input('ingrese el numero de años a invertir:'))
-capital = round(inversion * (interes / 100 + 1) ** años,2)
-print(f'capital final: {capital}')
