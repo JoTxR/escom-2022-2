@@ -1,0 +1,25 @@
+.barra{
+    /* //Comentado el 100222 por cambio de imagen insticional
+    background-color:#5D0227;
+    background-image: linear-gradient(#5D0227,#343A40);
+    */
+    background: rgb(0,85,128);
+    background: linear-gradient(180deg, rgba(0,85,128,1) 0%, rgba(0,102,153,1) 75%, rgba(0,153,230,1) 100%)
+}
+.lista{
+    font-size: 23px;
+    max-width: max-content;
+
+}
+.sub{
+
+    margin-right: 100px;
+    display: inline;
+    color: white;
+}
+.intro{
+    background-color: #f5f5f5
+}
+.col_one_third{
+    position: absolute;
+}

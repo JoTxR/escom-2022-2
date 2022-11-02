@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- pone estilo a la imagen del logo -->
+    <style>
+.logo {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+    </style>
+    <title>Test vocacional: Descubre tu perfil profesional</title>
+</head>
+    <body style="background-color:rgb(22, 104, 104);">
+        <p>
+            <h2><center>Test vocacional: Descubre tu perfil profesional</center></h1>
+            </p> 
+        <p>
+        <div class="logo">
+        <center><img src="logo.jpg"></center>
+        </div>
+        <!-- introduccion de datos -->
+            Introduce los siguientes datos para empezar con tu test vocacional
+        </p>
+        <form method="get" action="instrucciones.html">
+            <p>   
+                <label>Nombre: 
+                <input type = "Nombre" placeholder="Nombre" required/>
+
+            </label>
+        </p>
+        <p>
+            <label>Apellido: 
+                <input type = "Apellido" placeholder="Apellido" required/>
+            </label>
+        </p>
+        <p>
+            <label>Edad: 
+                <input type = "Edad" placeholder="Edad" required/>
+            </label>
+        </p>
+        <p>
+        <label>email:   
+                <input type = "email" placeholder="example@dominio.com" required/>
+        </label>
+        </p>
+        <p>
+            <label>Tel: 
+                <input type = "tel" placeholder="(###) ###-####"
+                pattern="\(\d{3}\)+\d{3}-\d{4)" required/>        
+            </label>
+        </p>
+        <p>
+            <input type="submit" value="Siguiente"> 
+            <input type="reset" value="Borrar">
+        </p>
+    </body>
+</html>
