@@ -1,7 +1,6 @@
 function aleatorio(max){   
    return Math.floor(Math.random() * max)
 }
-
 var n=0,num;
 var x1 =100,y1=200;
 var x2=300,y2=200;
@@ -38,3 +37,4 @@ for(var i = 0 ; i <= n ; i++){
    p2=(y3+p2)/2;
    contexto.fillRect(p1,p2,2,2);
    }}
+window.alert('termine');
