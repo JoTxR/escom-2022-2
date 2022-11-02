@@ -1,0 +1,7 @@
+dinero=float(input('introduce una cantidad a invertir:'))
+interes = round((dinero * .04) + dinero,2)
+print(f"la inversion el primer año es de : {interes}")
+interes2 = round((interes * .04) + interes,2)
+print(f'el interes del segundo año es de: {interes2}')
+interes3 = round((interes2 * .04) + interes2,2)
+print(f'el interes del tercer año es de: {interes3}')
